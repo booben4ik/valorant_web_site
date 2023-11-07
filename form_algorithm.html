@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма с алгоритмической задачей</title>
+</head>
+<body>
+    <form action="https://www.bing.com/search?" target="_blank">
+        <table width="40%" border="2" align="center" cellspacing="10px">
+            <tbody>
+                   <tr>
+                    <td width="50%">Формулировка задачи:</td>
+                    <td><textarea cols="35" rows="3" readonly>Дано вещественное число A. Вычислить X = 0 при A > 100; X = A при A < 61, в противном случае X = A**4.</textarea></td>
+                   </tr>
+                   <tr>
+                    <td>Значение A:</td>
+                    <td><input id="a" style="width: 200px;" step="0.1" type="number" name="value_a" value="" placeholder="Введите вещественное число" required></td>
+                   </tr>
+                   <tr>
+                    <td>Результат X:</td>
+                    <td><input id="x" style="width: 200px;" type="number" name="result" value="" placeholder="Результат" readonly></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2" align="center"><button type ="button" id="verify">Выполнить</button></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2" align="center"><button type="submit" name="submit">Отправить</button></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2" align="center"><button type="reset" name="reset">Очистить</button></td>
+                   </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+<script src="js/script_for_form.js"></script>
+</html>

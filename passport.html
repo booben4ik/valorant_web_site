@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изменяем кириллицу на латиницу по клику</title>
+</head> 
+<body>
+    <h1 align = "center"> Паспорт </h1>
+    
+    <div style = " display: flex; flex-direction: column; margin: 0 auto; border: solid; border-color:sienna; padding: 20px; width: 600px; height: 340px; background-color: rgb(255, 231, 154);">
+        <p align = "center"> РОССИЙСКАЯ ФЕДЕРАЦИЯ </p>
+        <div style="display: flex; flex-direction: row; margin: 0 auto;">
+            <div style="width: max-content;">
+                <p> Паспорт выдан <span>ГУ МВД РОССИИ ПО ПЕРМСКОМУ КРАЮ</span></p>
+                <p> Дата выдачи <span>30.07.2018</span></p>
+                <p>Фамилия <span class="surname">БУБНОВА</span></p>
+                <p>Имя <span class="name">АНАСТАСИЯ</span></p>
+                <p>Отчество <span>ЯРОСЛАВОВНА</span></p>
+                <p>Дата рождения <span>20.07.<span class="birthyear">2004</span></span></p>
+                <p>Место рождения <span>Г. КУНГУР ПЕРМСКАЯ ОБЛАСТЬ</span></p>
+            </div>
+            <div style="margin: 60px 20px;">
+                <img src="img\2cSff0yDdoI.jpg" alt="фотография :D" width="130" height="160">
+            </div>
+        </div>
+    </div>
+    <div style="border: solid; border-color: coral; background-color: rgb(255, 219, 172); margin: 5px auto; width: max-content; height: 30px; padding: 5px ;">
+        <p style="margin: 5px auto;" id="for_click"><b>ИЗМЕНИТЬ ЯЗЫК</b></p>
+    </div>
+    <center>
+    <img style="margin-top: 50px;" src="/img/screen.PNG" width="1000">
+    </center>
+</body>
+<script src="js\script_passport.js"></script>
+</html>
