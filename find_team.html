@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css_page_1.css">
+    <title>Find teammates</title>
+</head>
+<body>
+    <header align="center">
+        <table width="100%" border="0" cellspacing="3" border-radius="8px">
+            <tbody>
+                <tr>
+                    <td colspan="3" align="center"><h1>DEFY THE LIMITS</h1></td>
+                    <td colspan="2" align="left"><a href="https://playvalorant.com/ru-ru/" target="_blank"><img height="200px" width="200px" src="img\valorant logo.png" alt="Логотип Валорант" title="Перейти на официальный сайт игры"></a></td>
+    
+                </tr>
+                <tr>
+                    <td width="20%"> <a href="index.html">ГЛАВНАЯ</a></td>
+                    <td width="20%"> <a href="agents.html#agents">АГЕНТЫ</a></td>
+                    <td width="20%"><a href="abilities.html">СПОСОБНОСТИ</a></td>
+                    <td width="20%"><a href="ranks.html">РАНГИ</a></td>
+                    <td width="20%" class="current_page"><a href="find_team.html">НАЙТИ ТИММЕЙТОВ</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </header>
+        <table width="80%" align="center" border="1" cellspacing="20px" background="img\background.jpg" style="margin: 10px auto;">
+            <tbody>
+                <tr align="center">
+                    <td colspan="2" background="img\cellbg.jpg"><h1>НАЙДИТЕ ТИММЕЙТОВ</h1></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: rgb(255, 70, 85);"><p style="font-size: 20px; margin: 16px;">Хотите найти сокомандников для игры в Валорант, но у вас нет друзей? Не беда. Заполните небольшую форму и мы отправим вам ссылку на дискорд сервер с игроками с похожими данными.</p></td>
+                </tr>
+                </tbody>
+        </table>
+        <form action="https://www.bing.com/search?" target="_blank">
+        <table width="40%" align="center" border="1" cellspacing="20px" background="img\background.jpg" style="margin: 10px auto;">
+            <tbody>
+                <tr>
+                    <td colspan="2" align="center" style="background-color: rgb(255, 70, 85);"><h2>ЛИЧНЫЕ ДАННЫЕ</h2></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ФАМИЛИЯ</p></td>
+                    <td><input type="text" name="surname" value="" placeholder="Фамилия" required></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ИМЯ</p></td>
+                    <td><input type="text" name="name" value="" placeholder="Имя" required></td>
+                </tr>
+                <tr>
+                    <td><p class="form">НОМЕР ТЕЛЕФОНА</p></td>
+                    <td><input type="number" name="phone" value="" placeholder="+7 999 999 99 99" required></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ЭЛЕКТРОННАЯ ПОЧТА</p></td>
+                    <td><input type="email" name="email" value="" placeholder="@mail.ru" required></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ДАТА РОЖДЕНИЯ</p></td>
+                    <td><input type="date" name="birthdate" value="" required></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ПОЛ</p></td>
+                    <td><input type="radio" name="sex" value=""> М <input type="Radio" name="sex" value="" required> Ж </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" style="background-color: rgb(255, 70, 85);"><h2>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</h2></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ВАШ УРОВЕНЬ</p></td>
+                    <td><select name="level" required>
+                        <option></option>
+                        <option>Меньше 20</option>
+                        <option>20 и выше</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p class="form">ВАШ РАНГ</p></td>
+                    <td><select name="level" required>
+                        <option></option>
+                        <option>Без ранга</option>
+                        <option>Железо</option>
+                        <option>Бронза</option>
+                        <option>Серебро</option>
+                        <option>Золото</option>
+                        <option>Платина</option>
+                        <option>Алмаз</option>
+                        <option>Расцвет</option>
+                        <option>Бессмертный</option>
+                        <option>Радиант</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p class="form">СКОЛЬКО ЧАСОВ В НЕДЕЛЮ ВЫ ИГРАЕТЕ</p></td>
+                    <td><input type="number" name="gamehours" value="" placeholder="Примерное число" required></td>
+                </tr>
+                <tr>
+                    <td><p class="form">ВАШ RIOT ID</p></td>
+                    <td><input type="password" name="riot_id" value="" placeholder="nick_#1111" required></td>
+                </tr>
+                <tr>
+                    <td bgcolor="grey"><p class="form" >ЧТО ВАМ НРАВИТСЯ В ИГРЕ?</p></td>
+                    <td width="50%"><input type="checkbox" name="riot_id" value=""> Разнообразие агентов
+                        <br><input type="checkbox" name="riot_id" value=""> Красивые карты
+                        <br><input type="checkbox" name="riot_id" value=""> Разные способности агентов
+                        <br><input type="checkbox" name="riot_id" value=""> Люблю шутеры
+                        <br><input type="checkbox" name="riot_id" value=""> Ничего из перечисленного
+                        <br><input type="checkbox" name="riot_id" value="">Другое<input type="" name="riot_id" value=""></td>
+                </tr>
+                <tr>
+                    <td bgcolor="grey"><p class="form">РАССКАЖИТЕ О СВОИХ УВЛЕЧЕНИЯХ И ИНТЕРЕСАХ</p></td>
+                    <td><textarea cols="30" rows="8" maxlength="300" name="textarea" placeholder="Максимум 300 символов"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="center"><button type="submit" name="submit" value="" style="padding: 5px;">ОТПРАВИТЬ</button></td>
+                    <td align="center"><input type="reset" name="reset" value="ОЧИСТИТЬ" style="padding: 5px;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <footer>
+        <table width="90%" border="0" align="center">
+            <tr>
+                <td align="center"><a href="https://playvalorant.com/ru-ru/" target="_blank">ОФИЦИАЛЬНЫЙ САЙТ</a></td>
+                <td align="center"><a href="add_tasks.html" target="_blank">ДОПОЛНИТЕЛЬНЫЕ ЗАДАНИЯ</a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="index.html">НА ГЛАВНУЮ</a></td>
+                <td align="center"><a href="#top" target="_self">К НАЧАЛУ СТРАНИЦЫ</a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
